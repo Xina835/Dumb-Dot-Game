@@ -1,3 +1,8 @@
 Levels with unpacked Prefabs:
 Level 2: Player, Player Too
 Level 11: Player, Player Too
+Level 15: Hazard Block
+Maze 4: 1 Pickup (38)
+Color 1: Capsuls, Game Manager
+
+
