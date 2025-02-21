@@ -1,4 +1,4 @@
-﻿// (c) Copyright HutongGames, LLC 2010-2018. All rights reserved.
+// (c) Copyright HutongGames, LLC 2010-2018. All rights reserved.
 
 using UnityEngine;
 using UnityEngine.Video;
@@ -62,11 +62,7 @@ namespace HutongGames.PlayMaker.Actions
 		{
 			if (_vp != null)
 			{
-#if UNITY_2022_2_OR_NEWER
 				canSetTimeSource.Value = _vp.canSetTimeUpdateMode;
-#else	
-				canSetTimeSource.Value = _vp.canSetTimeSource;
-#endif
 				Fsm.Event(_vp.canSetTime?canSetTimeSourceEvent:canNotSetTimeSourceEvent);
 			}
 		}

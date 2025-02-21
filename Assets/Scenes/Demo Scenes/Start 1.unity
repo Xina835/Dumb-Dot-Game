@@ -13,7 +13,7 @@ OcclusionCullingSettings:
 --- !u!104 &2
 RenderSettings:
   m_ObjectHideFlags: 0
-  serializedVersion: 9
+  serializedVersion: 10
   m_Fog: 0
   m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
   m_FogMode: 3
@@ -38,13 +38,12 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
-  serializedVersion: 12
-  m_GIWorkflowMode: 1
+  serializedVersion: 13
+  m_BakeOnSceneLoad: 0
   m_GISettings:
     serializedVersion: 2
     m_BounceScale: 1
@@ -67,9 +66,6 @@ LightmapSettings:
     m_LightmapParameters: {fileID: 0}
     m_LightmapsBakeMode: 1
     m_TextureCompression: 1
-    m_FinalGather: 0
-    m_FinalGatherFiltering: 1
-    m_FinalGatherRayCount: 256
     m_ReflectionCompression: 2
     m_MixedBakeMode: 2
     m_BakeBackend: 0
@@ -714,43 +710,23 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3613072044100152140, guid: b6b8e55817eeab343af03ee09c334c08,
         type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 436.6106
-      objectReference: {fileID: 0}
-    - target: {fileID: 3613072044100152140, guid: b6b8e55817eeab343af03ee09c334c08,
-        type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 311.3073
-      objectReference: {fileID: 0}
-    - target: {fileID: 3613072044100152140, guid: b6b8e55817eeab343af03ee09c334c08,
-        type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 449.87
+      value: 234.00006
       objectReference: {fileID: 0}
     - target: {fileID: 3613072044100152140, guid: b6b8e55817eeab343af03ee09c334c08,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 234.38
-      objectReference: {fileID: 0}
-    - target: {fileID: 3613072044847164427, guid: b6b8e55817eeab343af03ee09c334c08,
-        type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 423.2022
-      objectReference: {fileID: 0}
-    - target: {fileID: 3613072044847164427, guid: b6b8e55817eeab343af03ee09c334c08,
-        type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 313.9891
+      value: 104.99997
       objectReference: {fileID: 0}
     - target: {fileID: 3613072044847164427, guid: b6b8e55817eeab343af03ee09c334c08,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 449.87
+      value: 234.00002
       objectReference: {fileID: 0}
     - target: {fileID: 3613072044847164427, guid: b6b8e55817eeab343af03ee09c334c08,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 235.72
+      value: 104.99996
       objectReference: {fileID: 0}
     - target: {fileID: 3613072045063811904, guid: b6b8e55817eeab343af03ee09c334c08,
         type: 3}
@@ -917,12 +893,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5029222022906204465, guid: 454a1d581de8dfa438bf559c2bb672e1,
         type: 3}
-      propertyPath: fsm.states.Array.data[1].actionData.actionEnabled.Array.data[2]
+      propertyPath: 'fsm.states.Array.data[1].actionData.actionEnabled.Array.data[2]'
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5029222022906204465, guid: 454a1d581de8dfa438bf559c2bb672e1,
         type: 3}
-      propertyPath: fsm.states.Array.data[1].actionData.actionEnabled.Array.data[3]
+      propertyPath: 'fsm.states.Array.data[1].actionData.actionEnabled.Array.data[3]'
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5029222022906204465, guid: 454a1d581de8dfa438bf559c2bb672e1,
@@ -1175,7 +1151,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2751603210060826586, guid: df48b394c3c1a6f499e8e253870914a9,
         type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
     - target: {fileID: 2751603210060826587, guid: df48b394c3c1a6f499e8e253870914a9,
@@ -1207,6 +1183,7 @@ CircleCollider2D:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1795723876}
   m_Enabled: 1
+  serializedVersion: 3
   m_Density: 1
   m_Material: {fileID: 0}
   m_IncludeLayers:
@@ -1230,9 +1207,9 @@ CircleCollider2D:
     m_Bits: 4294967295
   m_IsTrigger: 1
   m_UsedByEffector: 0
-  m_UsedByComposite: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
   m_Offset: {x: 0, y: -0.000000059604645}
-  serializedVersion: 2
   m_Radius: 2.01
 --- !u!1001 &1832950685
 PrefabInstance:
@@ -1380,12 +1357,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 159925bca00ebe5409e9d20015a8ca0c, type: 3}
---- !u!1 &2103623660 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1342984391344489185, guid: 159925bca00ebe5409e9d20015a8ca0c,
-    type: 3}
-  m_PrefabInstance: {fileID: 2103623659}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -1400,5 +1371,3 @@ SceneRoots:
   - {fileID: 1162141000}
   - {fileID: 663076217}
   - {fileID: 411436749}
-  - {fileID: 1832950685}
-  - {fileID: 317380329}

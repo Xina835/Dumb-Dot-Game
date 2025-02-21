@@ -210,11 +210,7 @@ namespace HutongGames.PlayMakerEditor
         public static List<string> GetLoadedScenes()
         {
             var openScenes = new List<string>();
-#if UNITY_2022_2_OR_NEWER
             for (var i = 0; i < SceneManager.loadedSceneCount; i++)
-#else
-            for (var i = 0; i < EditorSceneManager.loadedSceneCount; i++)
-#endif                
             {
                 openScenes.Add(SceneManager.GetSceneAt(i).path);
             }
