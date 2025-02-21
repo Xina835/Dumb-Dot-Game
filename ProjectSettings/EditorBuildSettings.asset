@@ -78,3 +78,4 @@ EditorBuildSettings:
     path: Assets/Scenes/Demo Scenes/Start 1 Too.unity
     guid: f7501c31f89336546a72d5d749ff1edb
   m_configObjects: {}
+  m_UseUCBPForAssetBundles: 0
