@@ -18,57 +18,63 @@ EditorBuildSettings:
     path: Assets/Scenes/Demo Scenes/Start 3.unity
     guid: 5c1b8ea0396f2d942b78d8a093f2add4
   - enabled: 1
-    path: Assets/Scenes/Demo Scenes/Start 4.unity
-    guid: 986e19a79330e4f44816e4fcf49f67ee
+    path: Assets/Scenes/Demo Scenes/Hazard 1.unity
+    guid: d8309b2a9bd60a14e9997841cf3c0341
   - enabled: 1
     path: Assets/Scenes/Demo Scenes/Start 5.unity
     guid: ef827527a29c1c54480c643abf5ef4bd
   - enabled: 1
-    path: Assets/Scenes/Demo Scenes/6 Sixth.unity
-    guid: d8309b2a9bd60a14e9997841cf3c0341
-  - enabled: 1
-    path: Assets/Scenes/Demo Scenes/7 Seventh.unity
+    path: Assets/Scenes/Demo Scenes/Hazard 2.unity
     guid: 2a9d77b801fcf5149a68b959130753c6
   - enabled: 1
-    path: Assets/Scenes/Demo Scenes/8 Eighth.unity
-    guid: 7b01072d2505b8e499f6accccc879f19
-  - enabled: 1
-    path: Assets/Scenes/Demo Scenes/9 Ninth.unity
+    path: Assets/Scenes/Demo Scenes/Start 6.unity
     guid: 08b1a78b6ff1e874cac4ad9325bd0efc
   - enabled: 1
-    path: Assets/Scenes/Demo Scenes/10 Tenth.unity
+    path: Assets/Scenes/Demo Scenes/Start 7.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/Scenes/Demo Scenes/11 Eleventh.unity
-    guid: 91227263940c3ef4987d4dc1aad54ba8
+    path: Assets/Scenes/Demo Scenes/Hazard 4.unity
+    guid: 93218950c5581614181f87fcbc946c8b
   - enabled: 1
     path: Assets/Scenes/Demo Scenes/Mandala 1.unity
     guid: 205aa30c90d635440a3e777471f60135
   - enabled: 1
-    path: Assets/Scenes/Demo Scenes/13 Thirteen.unity
-    guid: 93218950c5581614181f87fcbc946c8b
-  - enabled: 1
-    path: Assets/Scenes/Demo Scenes/14 Fourteen.unity
+    path: Assets/Scenes/Demo Scenes/Hazard 5.unity
     guid: c14294839732dda4f8b358e41840ca4f
   - enabled: 1
-    path: Assets/Scenes/Demo Scenes/15 Fifteen.unity
+    path: Assets/Scenes/Demo Scenes/Hazard 6.unity
     guid: 2017497e6e369d04e8a14155245c6785
   - enabled: 1
     path: Assets/Scenes/Demo Scenes/Colors 1.unity
     guid: 4cdb5ce8ea11b284baf0e7df57fbf366
   - enabled: 1
-    path: Assets/Scenes/Demo Scenes/Colors 2.unity
-    guid: 79ce740439a323a4790484686604ef66
+    path: Assets/Scenes/Demo Scenes/Hazard 8.unity
+    guid: 9f987035bda19d24cb437a1767775270
   - enabled: 1
     path: Assets/Scenes/Demo Scenes/Big 3.unity
     guid: ec497e59946326b41b1cf4c87d58f7bd
   - enabled: 1
-    path: Assets/Scenes/Demo Scenes/Mandala 4.unity
-    guid: 8ca481a6b11f4ff4fa96b4b826c7090b
+    path: Assets/Scenes/Demo Scenes/Hazard 7.unity
+    guid: eb7fe4c05382d084ba20b4ab6167af1f
+  - enabled: 1
+    path: Assets/Scenes/Demo Scenes/Colors 2.unity
+    guid: 79ce740439a323a4790484686604ef66
+  - enabled: 1
+    path: Assets/Scenes/Demo Scenes/Hazard 9.unity
+    guid: 03ef0b67dbbcec4488332154c5b2ede9
+  - enabled: 1
+    path: Assets/Scenes/Demo Scenes/Hazard 3.unity
+    guid: 7b01072d2505b8e499f6accccc879f19
   - enabled: 1
     path: Assets/Scenes/Demo Scenes/Mandala 5.unity
     guid: 96b75d2af8f47084d88430c85d17971f
   - enabled: 1
     path: Assets/Scenes/Demo Scenes/Credits.unity
     guid: 32488e7b0aaa0a44783108e3a1d05a13
+  - enabled: 1
+    path: Assets/Scenes/Character Creation.unity
+    guid: 24c341cef843d634ea6e77a42154e188
+  - enabled: 1
+    path: Assets/Scenes/Demo Scenes/Start 1 Too.unity
+    guid: f7501c31f89336546a72d5d749ff1edb
   m_configObjects: {}

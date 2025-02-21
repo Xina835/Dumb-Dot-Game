@@ -8,6 +8,7 @@ TagManager:
   - Hazard
   - Capsul 1
   - Capsul 2
+  - thisisstupid
   layers:
   - Default
   - TransparentFX
