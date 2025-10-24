@@ -144,6 +144,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5029222022906204465, guid: 454a1d581de8dfa438bf559c2bb672e1,
         type: 3}
+      propertyPath: fsm.states.Array.data[1].actionData.fsmObjectParams.Array.data[0].value
+      value: 
+      objectReference: {fileID: 8300000, guid: 67c7756a2ed5aec49aff24c52e88d512, type: 3}
+    - target: {fileID: 5029222022906204465, guid: 454a1d581de8dfa438bf559c2bb672e1,
+        type: 3}
       propertyPath: fsm.states.Array.data[1].actionData.fsmOwnerDefaultParams.Array.data[0].gameObject.value
       value: 
       objectReference: {fileID: 519420028}
@@ -316,6 +321,21 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2280448514273987288, guid: 8e9ebbfc9c77c68418a3e2d603ffd842,
         type: 3}
+      propertyPath: fsm.states.Array.data[1].position.x
+      value: 256.60156
+      objectReference: {fileID: 0}
+    - target: {fileID: 2280448514273987288, guid: 8e9ebbfc9c77c68418a3e2d603ffd842,
+        type: 3}
+      propertyPath: fsm.states.Array.data[1].position.y
+      value: 107.796875
+      objectReference: {fileID: 0}
+    - target: {fileID: 2280448514273987288, guid: 8e9ebbfc9c77c68418a3e2d603ffd842,
+        type: 3}
+      propertyPath: fsm.states.Array.data[1].actionData.fsmObjectParams.Array.data[0].value
+      value: 
+      objectReference: {fileID: 8300000, guid: 67c7756a2ed5aec49aff24c52e88d512, type: 3}
+    - target: {fileID: 2280448514273987288, guid: 8e9ebbfc9c77c68418a3e2d603ffd842,
+        type: 3}
       propertyPath: fsm.states.Array.data[1].actionData.fsmOwnerDefaultParams.Array.data[0].gameObject.value
       value: 
       objectReference: {fileID: 113243021}
@@ -424,12 +444,12 @@ PrefabInstance:
     - target: {fileID: 2070314722741925592, guid: 23c3a07ee74702d48a98bf6d422b95a9,
         type: 3}
       propertyPath: fsm.variables.floatVariables.Array.data[0].value
-      value: 4
+      value: -4
       objectReference: {fileID: 0}
     - target: {fileID: 2070314722741925592, guid: 23c3a07ee74702d48a98bf6d422b95a9,
         type: 3}
       propertyPath: fsm.variables.floatVariables.Array.data[1].value
-      value: -4
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 2070314722741925592, guid: 23c3a07ee74702d48a98bf6d422b95a9,
         type: 3}
@@ -519,6 +539,11 @@ PrefabInstance:
       propertyPath: fsm.handleTriggerEnter2D
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2280448514273987288, guid: 8e9ebbfc9c77c68418a3e2d603ffd842,
+        type: 3}
+      propertyPath: fsm.states.Array.data[1].actionData.fsmObjectParams.Array.data[0].value
+      value: 
+      objectReference: {fileID: 8300000, guid: 67c7756a2ed5aec49aff24c52e88d512, type: 3}
     - target: {fileID: 2280448514273987288, guid: 8e9ebbfc9c77c68418a3e2d603ffd842,
         type: 3}
       propertyPath: fsm.states.Array.data[1].actionData.fsmOwnerDefaultParams.Array.data[0].gameObject.value
@@ -727,6 +752,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2280448514273987288, guid: 8e9ebbfc9c77c68418a3e2d603ffd842,
         type: 3}
+      propertyPath: fsm.states.Array.data[1].actionData.fsmObjectParams.Array.data[0].value
+      value: 
+      objectReference: {fileID: 8300000, guid: 67c7756a2ed5aec49aff24c52e88d512, type: 3}
+    - target: {fileID: 2280448514273987288, guid: 8e9ebbfc9c77c68418a3e2d603ffd842,
+        type: 3}
       propertyPath: fsm.states.Array.data[1].actionData.fsmOwnerDefaultParams.Array.data[0].gameObject.value
       value: 
       objectReference: {fileID: 550393263}
@@ -843,6 +873,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5029222022906204465, guid: 454a1d581de8dfa438bf559c2bb672e1,
         type: 3}
+      propertyPath: fsm.states.Array.data[1].actionData.fsmObjectParams.Array.data[0].value
+      value: 
+      objectReference: {fileID: 8300000, guid: 67c7756a2ed5aec49aff24c52e88d512, type: 3}
+    - target: {fileID: 5029222022906204465, guid: 454a1d581de8dfa438bf559c2bb672e1,
+        type: 3}
       propertyPath: fsm.states.Array.data[1].actionData.fsmOwnerDefaultParams.Array.data[0].gameObject.value
       value: 
       objectReference: {fileID: 519420028}
@@ -947,6 +982,11 @@ PrefabInstance:
       propertyPath: fsm.handleTriggerEnter2D
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2280448514273987288, guid: 8e9ebbfc9c77c68418a3e2d603ffd842,
+        type: 3}
+      propertyPath: fsm.states.Array.data[1].actionData.fsmObjectParams.Array.data[0].value
+      value: 
+      objectReference: {fileID: 8300000, guid: 67c7756a2ed5aec49aff24c52e88d512, type: 3}
     - target: {fileID: 2280448514273987288, guid: 8e9ebbfc9c77c68418a3e2d603ffd842,
         type: 3}
       propertyPath: fsm.states.Array.data[1].actionData.fsmOwnerDefaultParams.Array.data[0].gameObject.value
@@ -1064,6 +1104,11 @@ PrefabInstance:
       propertyPath: fsm.handleTriggerEnter2D
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2280448514273987288, guid: 8e9ebbfc9c77c68418a3e2d603ffd842,
+        type: 3}
+      propertyPath: fsm.states.Array.data[1].actionData.fsmObjectParams.Array.data[0].value
+      value: 
+      objectReference: {fileID: 8300000, guid: 67c7756a2ed5aec49aff24c52e88d512, type: 3}
     - target: {fileID: 2280448514273987288, guid: 8e9ebbfc9c77c68418a3e2d603ffd842,
         type: 3}
       propertyPath: fsm.states.Array.data[1].actionData.fsmOwnerDefaultParams.Array.data[0].gameObject.value
@@ -1186,6 +1231,11 @@ PrefabInstance:
       propertyPath: fsm.handleTriggerEnter2D
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5029222022906204465, guid: 454a1d581de8dfa438bf559c2bb672e1,
+        type: 3}
+      propertyPath: fsm.states.Array.data[1].actionData.fsmObjectParams.Array.data[0].value
+      value: 
+      objectReference: {fileID: 8300000, guid: 67c7756a2ed5aec49aff24c52e88d512, type: 3}
     - target: {fileID: 5029222022906204465, guid: 454a1d581de8dfa438bf559c2bb672e1,
         type: 3}
       propertyPath: fsm.states.Array.data[1].actionData.fsmOwnerDefaultParams.Array.data[0].gameObject.value
@@ -1346,12 +1396,12 @@ PrefabInstance:
     - target: {fileID: 1342984391344489186, guid: 159925bca00ebe5409e9d20015a8ca0c,
         type: 3}
       propertyPath: fsm.variables.floatVariables.Array.data[0].value
-      value: 4
+      value: -4
       objectReference: {fileID: 0}
     - target: {fileID: 1342984391344489186, guid: 159925bca00ebe5409e9d20015a8ca0c,
         type: 3}
       propertyPath: fsm.variables.floatVariables.Array.data[1].value
-      value: -4
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 1342984391344489188, guid: 159925bca00ebe5409e9d20015a8ca0c,
         type: 3}
@@ -1442,6 +1492,11 @@ PrefabInstance:
       propertyPath: fsm.handleTriggerEnter2D
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5029222022906204465, guid: 454a1d581de8dfa438bf559c2bb672e1,
+        type: 3}
+      propertyPath: fsm.states.Array.data[1].actionData.fsmObjectParams.Array.data[0].value
+      value: 
+      objectReference: {fileID: 8300000, guid: 67c7756a2ed5aec49aff24c52e88d512, type: 3}
     - target: {fileID: 5029222022906204465, guid: 454a1d581de8dfa438bf559c2bb672e1,
         type: 3}
       propertyPath: fsm.states.Array.data[1].actionData.fsmOwnerDefaultParams.Array.data[0].gameObject.value
@@ -1647,6 +1702,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5029222022906204465, guid: 454a1d581de8dfa438bf559c2bb672e1,
         type: 3}
+      propertyPath: fsm.states.Array.data[1].actionData.fsmObjectParams.Array.data[0].value
+      value: 
+      objectReference: {fileID: 8300000, guid: 67c7756a2ed5aec49aff24c52e88d512, type: 3}
+    - target: {fileID: 5029222022906204465, guid: 454a1d581de8dfa438bf559c2bb672e1,
+        type: 3}
       propertyPath: fsm.states.Array.data[1].actionData.fsmOwnerDefaultParams.Array.data[0].gameObject.value
       value: 
       objectReference: {fileID: 519420028}
@@ -1832,6 +1892,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5029222022906204465, guid: 454a1d581de8dfa438bf559c2bb672e1,
         type: 3}
+      propertyPath: fsm.states.Array.data[1].actionData.fsmObjectParams.Array.data[0].value
+      value: 
+      objectReference: {fileID: 8300000, guid: 67c7756a2ed5aec49aff24c52e88d512, type: 3}
+    - target: {fileID: 5029222022906204465, guid: 454a1d581de8dfa438bf559c2bb672e1,
+        type: 3}
       propertyPath: fsm.states.Array.data[1].actionData.fsmOwnerDefaultParams.Array.data[0].gameObject.value
       value: 
       objectReference: {fileID: 519420028}
@@ -1941,6 +2006,11 @@ PrefabInstance:
       propertyPath: fsm.handleTriggerEnter2D
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5029222022906204465, guid: 454a1d581de8dfa438bf559c2bb672e1,
+        type: 3}
+      propertyPath: fsm.states.Array.data[1].actionData.fsmObjectParams.Array.data[0].value
+      value: 
+      objectReference: {fileID: 8300000, guid: 67c7756a2ed5aec49aff24c52e88d512, type: 3}
     - target: {fileID: 5029222022906204465, guid: 454a1d581de8dfa438bf559c2bb672e1,
         type: 3}
       propertyPath: fsm.states.Array.data[1].actionData.fsmOwnerDefaultParams.Array.data[0].gameObject.value
@@ -2060,6 +2130,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5029222022906204465, guid: 454a1d581de8dfa438bf559c2bb672e1,
         type: 3}
+      propertyPath: fsm.states.Array.data[1].actionData.fsmObjectParams.Array.data[0].value
+      value: 
+      objectReference: {fileID: 8300000, guid: 67c7756a2ed5aec49aff24c52e88d512, type: 3}
+    - target: {fileID: 5029222022906204465, guid: 454a1d581de8dfa438bf559c2bb672e1,
+        type: 3}
       propertyPath: fsm.states.Array.data[1].actionData.fsmOwnerDefaultParams.Array.data[0].gameObject.value
       value: 
       objectReference: {fileID: 519420028}
@@ -2169,6 +2244,11 @@ PrefabInstance:
       propertyPath: fsm.handleTriggerEnter2D
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5029222022906204465, guid: 454a1d581de8dfa438bf559c2bb672e1,
+        type: 3}
+      propertyPath: fsm.states.Array.data[1].actionData.fsmObjectParams.Array.data[0].value
+      value: 
+      objectReference: {fileID: 8300000, guid: 67c7756a2ed5aec49aff24c52e88d512, type: 3}
     - target: {fileID: 5029222022906204465, guid: 454a1d581de8dfa438bf559c2bb672e1,
         type: 3}
       propertyPath: fsm.states.Array.data[1].actionData.fsmOwnerDefaultParams.Array.data[0].gameObject.value
@@ -2282,6 +2362,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5029222022906204465, guid: 454a1d581de8dfa438bf559c2bb672e1,
         type: 3}
+      propertyPath: fsm.states.Array.data[1].actionData.fsmObjectParams.Array.data[0].value
+      value: 
+      objectReference: {fileID: 8300000, guid: 67c7756a2ed5aec49aff24c52e88d512, type: 3}
+    - target: {fileID: 5029222022906204465, guid: 454a1d581de8dfa438bf559c2bb672e1,
+        type: 3}
       propertyPath: fsm.states.Array.data[1].actionData.fsmOwnerDefaultParams.Array.data[0].gameObject.value
       value: 
       objectReference: {fileID: 519420028}
@@ -2393,6 +2478,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5029222022906204465, guid: 454a1d581de8dfa438bf559c2bb672e1,
         type: 3}
+      propertyPath: fsm.states.Array.data[1].actionData.fsmObjectParams.Array.data[0].value
+      value: 
+      objectReference: {fileID: 8300000, guid: 67c7756a2ed5aec49aff24c52e88d512, type: 3}
+    - target: {fileID: 5029222022906204465, guid: 454a1d581de8dfa438bf559c2bb672e1,
+        type: 3}
       propertyPath: fsm.states.Array.data[1].actionData.fsmOwnerDefaultParams.Array.data[0].gameObject.value
       value: 
       objectReference: {fileID: 519420028}
@@ -2497,6 +2587,11 @@ PrefabInstance:
       propertyPath: fsm.handleTriggerEnter2D
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2280448514273987288, guid: 8e9ebbfc9c77c68418a3e2d603ffd842,
+        type: 3}
+      propertyPath: fsm.states.Array.data[1].actionData.fsmObjectParams.Array.data[0].value
+      value: 
+      objectReference: {fileID: 8300000, guid: 67c7756a2ed5aec49aff24c52e88d512, type: 3}
     - target: {fileID: 2280448514273987288, guid: 8e9ebbfc9c77c68418a3e2d603ffd842,
         type: 3}
       propertyPath: fsm.states.Array.data[1].actionData.fsmOwnerDefaultParams.Array.data[0].gameObject.value
@@ -2616,6 +2711,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2280448514273987288, guid: 8e9ebbfc9c77c68418a3e2d603ffd842,
         type: 3}
+      propertyPath: fsm.states.Array.data[1].actionData.fsmObjectParams.Array.data[0].value
+      value: 
+      objectReference: {fileID: 8300000, guid: 67c7756a2ed5aec49aff24c52e88d512, type: 3}
+    - target: {fileID: 2280448514273987288, guid: 8e9ebbfc9c77c68418a3e2d603ffd842,
+        type: 3}
       propertyPath: fsm.states.Array.data[1].actionData.fsmOwnerDefaultParams.Array.data[0].gameObject.value
       value: 
       objectReference: {fileID: 772378491}
@@ -2733,6 +2833,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2280448514273987288, guid: 8e9ebbfc9c77c68418a3e2d603ffd842,
         type: 3}
+      propertyPath: fsm.states.Array.data[1].actionData.fsmObjectParams.Array.data[0].value
+      value: 
+      objectReference: {fileID: 8300000, guid: 67c7756a2ed5aec49aff24c52e88d512, type: 3}
+    - target: {fileID: 2280448514273987288, guid: 8e9ebbfc9c77c68418a3e2d603ffd842,
+        type: 3}
       propertyPath: fsm.states.Array.data[1].actionData.fsmOwnerDefaultParams.Array.data[0].gameObject.value
       value: 
       objectReference: {fileID: 630679179}
@@ -2842,6 +2947,11 @@ PrefabInstance:
       propertyPath: fsm.handleTriggerEnter2D
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2280448514273987288, guid: 8e9ebbfc9c77c68418a3e2d603ffd842,
+        type: 3}
+      propertyPath: fsm.states.Array.data[1].actionData.fsmObjectParams.Array.data[0].value
+      value: 
+      objectReference: {fileID: 8300000, guid: 67c7756a2ed5aec49aff24c52e88d512, type: 3}
     - target: {fileID: 2280448514273987288, guid: 8e9ebbfc9c77c68418a3e2d603ffd842,
         type: 3}
       propertyPath: fsm.states.Array.data[1].actionData.fsmOwnerDefaultParams.Array.data[0].gameObject.value
@@ -2972,6 +3082,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5029222022906204465, guid: 454a1d581de8dfa438bf559c2bb672e1,
         type: 3}
+      propertyPath: fsm.states.Array.data[1].actionData.fsmObjectParams.Array.data[0].value
+      value: 
+      objectReference: {fileID: 8300000, guid: 67c7756a2ed5aec49aff24c52e88d512, type: 3}
+    - target: {fileID: 5029222022906204465, guid: 454a1d581de8dfa438bf559c2bb672e1,
+        type: 3}
       propertyPath: fsm.states.Array.data[1].actionData.fsmOwnerDefaultParams.Array.data[0].gameObject.value
       value: 
       objectReference: {fileID: 519420028}
@@ -3074,7 +3189,7 @@ PrefabInstance:
     - target: {fileID: 3613072045063811904, guid: b6b8e55817eeab343af03ee09c334c08,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3613072045063811908, guid: b6b8e55817eeab343af03ee09c334c08,
         type: 3}
@@ -3211,6 +3326,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5029222022906204465, guid: 454a1d581de8dfa438bf559c2bb672e1,
         type: 3}
+      propertyPath: fsm.states.Array.data[1].actionData.fsmObjectParams.Array.data[0].value
+      value: 
+      objectReference: {fileID: 8300000, guid: 67c7756a2ed5aec49aff24c52e88d512, type: 3}
+    - target: {fileID: 5029222022906204465, guid: 454a1d581de8dfa438bf559c2bb672e1,
+        type: 3}
       propertyPath: fsm.states.Array.data[1].actionData.fsmOwnerDefaultParams.Array.data[0].gameObject.value
       value: 
       objectReference: {fileID: 519420028}
@@ -3325,6 +3445,11 @@ PrefabInstance:
       propertyPath: fsm.states.Array.data[1].position.y
       value: 86.99219
       objectReference: {fileID: 0}
+    - target: {fileID: 2280448514273987288, guid: 8e9ebbfc9c77c68418a3e2d603ffd842,
+        type: 3}
+      propertyPath: fsm.states.Array.data[1].actionData.fsmObjectParams.Array.data[0].value
+      value: 
+      objectReference: {fileID: 8300000, guid: 67c7756a2ed5aec49aff24c52e88d512, type: 3}
     - target: {fileID: 2280448514273987288, guid: 8e9ebbfc9c77c68418a3e2d603ffd842,
         type: 3}
       propertyPath: fsm.states.Array.data[1].actionData.fsmOwnerDefaultParams.Array.data[0].gameObject.value
@@ -3449,6 +3574,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5029222022906204465, guid: 454a1d581de8dfa438bf559c2bb672e1,
         type: 3}
+      propertyPath: fsm.states.Array.data[1].actionData.fsmObjectParams.Array.data[0].value
+      value: 
+      objectReference: {fileID: 8300000, guid: 67c7756a2ed5aec49aff24c52e88d512, type: 3}
+    - target: {fileID: 5029222022906204465, guid: 454a1d581de8dfa438bf559c2bb672e1,
+        type: 3}
       propertyPath: fsm.states.Array.data[1].actionData.fsmOwnerDefaultParams.Array.data[0].gameObject.value
       value: 
       objectReference: {fileID: 519420028}
@@ -3566,6 +3696,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5029222022906204465, guid: 454a1d581de8dfa438bf559c2bb672e1,
         type: 3}
+      propertyPath: fsm.states.Array.data[1].actionData.fsmObjectParams.Array.data[0].value
+      value: 
+      objectReference: {fileID: 8300000, guid: 67c7756a2ed5aec49aff24c52e88d512, type: 3}
+    - target: {fileID: 5029222022906204465, guid: 454a1d581de8dfa438bf559c2bb672e1,
+        type: 3}
       propertyPath: fsm.states.Array.data[1].actionData.fsmOwnerDefaultParams.Array.data[0].gameObject.value
       value: 
       objectReference: {fileID: 519420028}
@@ -3675,6 +3810,11 @@ PrefabInstance:
       propertyPath: fsm.handleTriggerEnter2D
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5029222022906204465, guid: 454a1d581de8dfa438bf559c2bb672e1,
+        type: 3}
+      propertyPath: fsm.states.Array.data[1].actionData.fsmObjectParams.Array.data[0].value
+      value: 
+      objectReference: {fileID: 8300000, guid: 67c7756a2ed5aec49aff24c52e88d512, type: 3}
     - target: {fileID: 5029222022906204465, guid: 454a1d581de8dfa438bf559c2bb672e1,
         type: 3}
       propertyPath: fsm.states.Array.data[1].actionData.fsmOwnerDefaultParams.Array.data[0].gameObject.value
@@ -3788,6 +3928,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5029222022906204465, guid: 454a1d581de8dfa438bf559c2bb672e1,
         type: 3}
+      propertyPath: fsm.states.Array.data[1].actionData.fsmObjectParams.Array.data[0].value
+      value: 
+      objectReference: {fileID: 8300000, guid: 67c7756a2ed5aec49aff24c52e88d512, type: 3}
+    - target: {fileID: 5029222022906204465, guid: 454a1d581de8dfa438bf559c2bb672e1,
+        type: 3}
       propertyPath: fsm.states.Array.data[1].actionData.fsmOwnerDefaultParams.Array.data[0].gameObject.value
       value: 
       objectReference: {fileID: 519420028}
@@ -3897,6 +4042,11 @@ PrefabInstance:
       propertyPath: fsm.handleTriggerEnter2D
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5029222022906204465, guid: 454a1d581de8dfa438bf559c2bb672e1,
+        type: 3}
+      propertyPath: fsm.states.Array.data[1].actionData.fsmObjectParams.Array.data[0].value
+      value: 
+      objectReference: {fileID: 8300000, guid: 67c7756a2ed5aec49aff24c52e88d512, type: 3}
     - target: {fileID: 5029222022906204465, guid: 454a1d581de8dfa438bf559c2bb672e1,
         type: 3}
       propertyPath: fsm.states.Array.data[1].actionData.fsmOwnerDefaultParams.Array.data[0].gameObject.value
@@ -4010,6 +4160,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5029222022906204465, guid: 454a1d581de8dfa438bf559c2bb672e1,
         type: 3}
+      propertyPath: fsm.states.Array.data[1].actionData.fsmObjectParams.Array.data[0].value
+      value: 
+      objectReference: {fileID: 8300000, guid: 67c7756a2ed5aec49aff24c52e88d512, type: 3}
+    - target: {fileID: 5029222022906204465, guid: 454a1d581de8dfa438bf559c2bb672e1,
+        type: 3}
       propertyPath: fsm.states.Array.data[1].actionData.fsmOwnerDefaultParams.Array.data[0].gameObject.value
       value: 
       objectReference: {fileID: 519420028}
@@ -4119,6 +4274,11 @@ PrefabInstance:
       propertyPath: fsm.handleTriggerEnter2D
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5029222022906204465, guid: 454a1d581de8dfa438bf559c2bb672e1,
+        type: 3}
+      propertyPath: fsm.states.Array.data[1].actionData.fsmObjectParams.Array.data[0].value
+      value: 
+      objectReference: {fileID: 8300000, guid: 67c7756a2ed5aec49aff24c52e88d512, type: 3}
     - target: {fileID: 5029222022906204465, guid: 454a1d581de8dfa438bf559c2bb672e1,
         type: 3}
       propertyPath: fsm.states.Array.data[1].actionData.fsmOwnerDefaultParams.Array.data[0].gameObject.value
@@ -4235,6 +4395,11 @@ PrefabInstance:
       propertyPath: fsm.states.Array.data[1].position.y
       value: 86.99219
       objectReference: {fileID: 0}
+    - target: {fileID: 2280448514273987288, guid: 8e9ebbfc9c77c68418a3e2d603ffd842,
+        type: 3}
+      propertyPath: fsm.states.Array.data[1].actionData.fsmObjectParams.Array.data[0].value
+      value: 
+      objectReference: {fileID: 8300000, guid: 67c7756a2ed5aec49aff24c52e88d512, type: 3}
     - target: {fileID: 2280448514273987288, guid: 8e9ebbfc9c77c68418a3e2d603ffd842,
         type: 3}
       propertyPath: fsm.states.Array.data[1].actionData.fsmOwnerDefaultParams.Array.data[0].gameObject.value
@@ -4427,6 +4592,21 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5029222022906204465, guid: 454a1d581de8dfa438bf559c2bb672e1,
         type: 3}
+      propertyPath: fsm.states.Array.data[1].position.x
+      value: 485.8047
+      objectReference: {fileID: 0}
+    - target: {fileID: 5029222022906204465, guid: 454a1d581de8dfa438bf559c2bb672e1,
+        type: 3}
+      propertyPath: fsm.states.Array.data[1].position.y
+      value: 102.59375
+      objectReference: {fileID: 0}
+    - target: {fileID: 5029222022906204465, guid: 454a1d581de8dfa438bf559c2bb672e1,
+        type: 3}
+      propertyPath: fsm.states.Array.data[1].actionData.fsmObjectParams.Array.data[0].value
+      value: 
+      objectReference: {fileID: 8300000, guid: 67c7756a2ed5aec49aff24c52e88d512, type: 3}
+    - target: {fileID: 5029222022906204465, guid: 454a1d581de8dfa438bf559c2bb672e1,
+        type: 3}
       propertyPath: fsm.states.Array.data[1].actionData.fsmOwnerDefaultParams.Array.data[0].gameObject.value
       value: 
       objectReference: {fileID: 519420028}
@@ -4538,6 +4718,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5029222022906204465, guid: 454a1d581de8dfa438bf559c2bb672e1,
         type: 3}
+      propertyPath: fsm.states.Array.data[1].actionData.fsmObjectParams.Array.data[0].value
+      value: 
+      objectReference: {fileID: 8300000, guid: 67c7756a2ed5aec49aff24c52e88d512, type: 3}
+    - target: {fileID: 5029222022906204465, guid: 454a1d581de8dfa438bf559c2bb672e1,
+        type: 3}
       propertyPath: fsm.states.Array.data[1].actionData.fsmOwnerDefaultParams.Array.data[0].gameObject.value
       value: 
       objectReference: {fileID: 519420028}
@@ -4642,6 +4827,11 @@ PrefabInstance:
       propertyPath: fsm.handleTriggerEnter2D
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2280448514273987288, guid: 8e9ebbfc9c77c68418a3e2d603ffd842,
+        type: 3}
+      propertyPath: fsm.states.Array.data[1].actionData.fsmObjectParams.Array.data[0].value
+      value: 
+      objectReference: {fileID: 8300000, guid: 67c7756a2ed5aec49aff24c52e88d512, type: 3}
     - target: {fileID: 2280448514273987288, guid: 8e9ebbfc9c77c68418a3e2d603ffd842,
         type: 3}
       propertyPath: fsm.states.Array.data[1].actionData.fsmOwnerDefaultParams.Array.data[0].gameObject.value
@@ -4760,6 +4950,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5029222022906204465, guid: 454a1d581de8dfa438bf559c2bb672e1,
         type: 3}
+      propertyPath: fsm.states.Array.data[1].actionData.fsmObjectParams.Array.data[0].value
+      value: 
+      objectReference: {fileID: 8300000, guid: 67c7756a2ed5aec49aff24c52e88d512, type: 3}
+    - target: {fileID: 5029222022906204465, guid: 454a1d581de8dfa438bf559c2bb672e1,
+        type: 3}
       propertyPath: fsm.states.Array.data[1].actionData.fsmOwnerDefaultParams.Array.data[0].gameObject.value
       value: 
       objectReference: {fileID: 519420028}
@@ -4869,6 +5064,11 @@ PrefabInstance:
       propertyPath: fsm.handleTriggerEnter2D
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5029222022906204465, guid: 454a1d581de8dfa438bf559c2bb672e1,
+        type: 3}
+      propertyPath: fsm.states.Array.data[1].actionData.fsmObjectParams.Array.data[0].value
+      value: 
+      objectReference: {fileID: 8300000, guid: 67c7756a2ed5aec49aff24c52e88d512, type: 3}
     - target: {fileID: 5029222022906204465, guid: 454a1d581de8dfa438bf559c2bb672e1,
         type: 3}
       propertyPath: fsm.states.Array.data[1].actionData.fsmOwnerDefaultParams.Array.data[0].gameObject.value
@@ -4983,6 +5183,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2280448514273987288, guid: 8e9ebbfc9c77c68418a3e2d603ffd842,
         type: 3}
+      propertyPath: fsm.states.Array.data[1].actionData.fsmObjectParams.Array.data[0].value
+      value: 
+      objectReference: {fileID: 8300000, guid: 67c7756a2ed5aec49aff24c52e88d512, type: 3}
+    - target: {fileID: 2280448514273987288, guid: 8e9ebbfc9c77c68418a3e2d603ffd842,
+        type: 3}
       propertyPath: fsm.states.Array.data[1].actionData.fsmOwnerDefaultParams.Array.data[0].gameObject.value
       value: 
       objectReference: {fileID: 17552560}
@@ -5092,6 +5297,11 @@ PrefabInstance:
       propertyPath: fsm.handleTriggerEnter2D
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2280448514273987288, guid: 8e9ebbfc9c77c68418a3e2d603ffd842,
+        type: 3}
+      propertyPath: fsm.states.Array.data[1].actionData.fsmObjectParams.Array.data[0].value
+      value: 
+      objectReference: {fileID: 8300000, guid: 67c7756a2ed5aec49aff24c52e88d512, type: 3}
     - target: {fileID: 2280448514273987288, guid: 8e9ebbfc9c77c68418a3e2d603ffd842,
         type: 3}
       propertyPath: fsm.states.Array.data[1].actionData.fsmOwnerDefaultParams.Array.data[0].gameObject.value
@@ -5216,6 +5426,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5029222022906204465, guid: 454a1d581de8dfa438bf559c2bb672e1,
         type: 3}
+      propertyPath: fsm.states.Array.data[1].actionData.fsmObjectParams.Array.data[0].value
+      value: 
+      objectReference: {fileID: 8300000, guid: 67c7756a2ed5aec49aff24c52e88d512, type: 3}
+    - target: {fileID: 5029222022906204465, guid: 454a1d581de8dfa438bf559c2bb672e1,
+        type: 3}
       propertyPath: fsm.states.Array.data[1].actionData.fsmOwnerDefaultParams.Array.data[0].gameObject.value
       value: 
       objectReference: {fileID: 519420028}
@@ -5320,6 +5535,11 @@ PrefabInstance:
       propertyPath: fsm.handleTriggerEnter2D
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2280448514273987288, guid: 8e9ebbfc9c77c68418a3e2d603ffd842,
+        type: 3}
+      propertyPath: fsm.states.Array.data[1].actionData.fsmObjectParams.Array.data[0].value
+      value: 
+      objectReference: {fileID: 8300000, guid: 67c7756a2ed5aec49aff24c52e88d512, type: 3}
     - target: {fileID: 2280448514273987288, guid: 8e9ebbfc9c77c68418a3e2d603ffd842,
         type: 3}
       propertyPath: fsm.states.Array.data[1].actionData.fsmOwnerDefaultParams.Array.data[0].gameObject.value
@@ -5444,6 +5664,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5029222022906204465, guid: 454a1d581de8dfa438bf559c2bb672e1,
         type: 3}
+      propertyPath: fsm.states.Array.data[1].actionData.fsmObjectParams.Array.data[0].value
+      value: 
+      objectReference: {fileID: 8300000, guid: 67c7756a2ed5aec49aff24c52e88d512, type: 3}
+    - target: {fileID: 5029222022906204465, guid: 454a1d581de8dfa438bf559c2bb672e1,
+        type: 3}
       propertyPath: fsm.states.Array.data[1].actionData.fsmOwnerDefaultParams.Array.data[0].gameObject.value
       value: 
       objectReference: {fileID: 519420028}
@@ -5558,6 +5783,11 @@ PrefabInstance:
       propertyPath: fsm.states.Array.data[1].position.y
       value: 86.99219
       objectReference: {fileID: 0}
+    - target: {fileID: 2280448514273987288, guid: 8e9ebbfc9c77c68418a3e2d603ffd842,
+        type: 3}
+      propertyPath: fsm.states.Array.data[1].actionData.fsmObjectParams.Array.data[0].value
+      value: 
+      objectReference: {fileID: 8300000, guid: 67c7756a2ed5aec49aff24c52e88d512, type: 3}
     - target: {fileID: 2280448514273987288, guid: 8e9ebbfc9c77c68418a3e2d603ffd842,
         type: 3}
       propertyPath: fsm.states.Array.data[1].actionData.fsmOwnerDefaultParams.Array.data[0].gameObject.value
@@ -5682,6 +5912,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5029222022906204465, guid: 454a1d581de8dfa438bf559c2bb672e1,
         type: 3}
+      propertyPath: fsm.states.Array.data[1].actionData.fsmObjectParams.Array.data[0].value
+      value: 
+      objectReference: {fileID: 8300000, guid: 67c7756a2ed5aec49aff24c52e88d512, type: 3}
+    - target: {fileID: 5029222022906204465, guid: 454a1d581de8dfa438bf559c2bb672e1,
+        type: 3}
       propertyPath: fsm.states.Array.data[1].actionData.fsmOwnerDefaultParams.Array.data[0].gameObject.value
       value: 
       objectReference: {fileID: 519420028}
@@ -5791,6 +6026,11 @@ PrefabInstance:
       propertyPath: fsm.handleTriggerEnter2D
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5029222022906204465, guid: 454a1d581de8dfa438bf559c2bb672e1,
+        type: 3}
+      propertyPath: fsm.states.Array.data[1].actionData.fsmObjectParams.Array.data[0].value
+      value: 
+      objectReference: {fileID: 8300000, guid: 67c7756a2ed5aec49aff24c52e88d512, type: 3}
     - target: {fileID: 5029222022906204465, guid: 454a1d581de8dfa438bf559c2bb672e1,
         type: 3}
       propertyPath: fsm.states.Array.data[1].actionData.fsmOwnerDefaultParams.Array.data[0].gameObject.value
@@ -5904,6 +6144,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5029222022906204465, guid: 454a1d581de8dfa438bf559c2bb672e1,
         type: 3}
+      propertyPath: fsm.states.Array.data[1].actionData.fsmObjectParams.Array.data[0].value
+      value: 
+      objectReference: {fileID: 8300000, guid: 67c7756a2ed5aec49aff24c52e88d512, type: 3}
+    - target: {fileID: 5029222022906204465, guid: 454a1d581de8dfa438bf559c2bb672e1,
+        type: 3}
       propertyPath: fsm.states.Array.data[1].actionData.fsmOwnerDefaultParams.Array.data[0].gameObject.value
       value: 
       objectReference: {fileID: 519420028}
@@ -6004,6 +6249,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 7783625819131838513, guid: c182a588e931cd848aecc29d35f4ebd1,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8820350811459232484, guid: c182a588e931cd848aecc29d35f4ebd1,
         type: 3}
       propertyPath: m_RootOrder
@@ -6082,7 +6332,7 @@ PrefabInstance:
     - target: {fileID: 8820350811459232487, guid: c182a588e931cd848aecc29d35f4ebd1,
         type: 3}
       propertyPath: fsm.variables.intVariables.Array.data[3].value
-      value: 10
+      value: 51
       objectReference: {fileID: 0}
     - target: {fileID: 8820350811459232487, guid: c182a588e931cd848aecc29d35f4ebd1,
         type: 3}
@@ -6348,6 +6598,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5029222022906204465, guid: 454a1d581de8dfa438bf559c2bb672e1,
         type: 3}
+      propertyPath: fsm.states.Array.data[1].actionData.fsmObjectParams.Array.data[0].value
+      value: 
+      objectReference: {fileID: 8300000, guid: 67c7756a2ed5aec49aff24c52e88d512, type: 3}
+    - target: {fileID: 5029222022906204465, guid: 454a1d581de8dfa438bf559c2bb672e1,
+        type: 3}
       propertyPath: fsm.states.Array.data[1].actionData.fsmOwnerDefaultParams.Array.data[0].gameObject.value
       value: 
       objectReference: {fileID: 519420028}
@@ -6457,6 +6712,11 @@ PrefabInstance:
       propertyPath: fsm.handleTriggerEnter2D
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5029222022906204465, guid: 454a1d581de8dfa438bf559c2bb672e1,
+        type: 3}
+      propertyPath: fsm.states.Array.data[1].actionData.fsmObjectParams.Array.data[0].value
+      value: 
+      objectReference: {fileID: 8300000, guid: 67c7756a2ed5aec49aff24c52e88d512, type: 3}
     - target: {fileID: 5029222022906204465, guid: 454a1d581de8dfa438bf559c2bb672e1,
         type: 3}
       propertyPath: fsm.states.Array.data[1].actionData.fsmOwnerDefaultParams.Array.data[0].gameObject.value
@@ -6570,6 +6830,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5029222022906204465, guid: 454a1d581de8dfa438bf559c2bb672e1,
         type: 3}
+      propertyPath: fsm.states.Array.data[1].actionData.fsmObjectParams.Array.data[0].value
+      value: 
+      objectReference: {fileID: 8300000, guid: 67c7756a2ed5aec49aff24c52e88d512, type: 3}
+    - target: {fileID: 5029222022906204465, guid: 454a1d581de8dfa438bf559c2bb672e1,
+        type: 3}
       propertyPath: fsm.states.Array.data[1].actionData.fsmOwnerDefaultParams.Array.data[0].gameObject.value
       value: 
       objectReference: {fileID: 519420028}
@@ -6674,6 +6939,11 @@ PrefabInstance:
       propertyPath: fsm.handleTriggerEnter2D
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2280448514273987288, guid: 8e9ebbfc9c77c68418a3e2d603ffd842,
+        type: 3}
+      propertyPath: fsm.states.Array.data[1].actionData.fsmObjectParams.Array.data[0].value
+      value: 
+      objectReference: {fileID: 8300000, guid: 67c7756a2ed5aec49aff24c52e88d512, type: 3}
     - target: {fileID: 2280448514273987288, guid: 8e9ebbfc9c77c68418a3e2d603ffd842,
         type: 3}
       propertyPath: fsm.states.Array.data[1].actionData.fsmOwnerDefaultParams.Array.data[0].gameObject.value
@@ -6801,6 +7071,11 @@ PrefabInstance:
       propertyPath: fsm.states.Array.data[1].position.y
       value: 86.99219
       objectReference: {fileID: 0}
+    - target: {fileID: 2280448514273987288, guid: 8e9ebbfc9c77c68418a3e2d603ffd842,
+        type: 3}
+      propertyPath: fsm.states.Array.data[1].actionData.fsmObjectParams.Array.data[0].value
+      value: 
+      objectReference: {fileID: 8300000, guid: 67c7756a2ed5aec49aff24c52e88d512, type: 3}
     - target: {fileID: 2280448514273987288, guid: 8e9ebbfc9c77c68418a3e2d603ffd842,
         type: 3}
       propertyPath: fsm.states.Array.data[1].actionData.fsmOwnerDefaultParams.Array.data[0].gameObject.value
@@ -6996,6 +7271,11 @@ PrefabInstance:
       propertyPath: fsm.handleTriggerEnter2D
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2280448514273987288, guid: 8e9ebbfc9c77c68418a3e2d603ffd842,
+        type: 3}
+      propertyPath: fsm.states.Array.data[1].actionData.fsmObjectParams.Array.data[0].value
+      value: 
+      objectReference: {fileID: 8300000, guid: 67c7756a2ed5aec49aff24c52e88d512, type: 3}
     - target: {fileID: 2280448514273987288, guid: 8e9ebbfc9c77c68418a3e2d603ffd842,
         type: 3}
       propertyPath: fsm.states.Array.data[1].actionData.fsmOwnerDefaultParams.Array.data[0].gameObject.value
