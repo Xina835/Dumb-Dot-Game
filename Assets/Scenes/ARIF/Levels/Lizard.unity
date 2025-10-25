@@ -6337,7 +6337,7 @@ PrefabInstance:
     - target: {fileID: 8820350811459232487, guid: c182a588e931cd848aecc29d35f4ebd1,
         type: 3}
       propertyPath: fsm.states.Array.data[7].actionData.fsmIntParams.Array.data[0].value
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8820350811459232487, guid: c182a588e931cd848aecc29d35f4ebd1,
         type: 3}

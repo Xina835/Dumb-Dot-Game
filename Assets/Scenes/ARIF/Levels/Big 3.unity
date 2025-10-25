@@ -13,7 +13,7 @@ OcclusionCullingSettings:
 --- !u!104 &2
 RenderSettings:
   m_ObjectHideFlags: 0
-  serializedVersion: 9
+  serializedVersion: 10
   m_Fog: 0
   m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
   m_FogMode: 3
@@ -38,13 +38,12 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
-  serializedVersion: 12
-  m_GIWorkflowMode: 1
+  serializedVersion: 13
+  m_BakeOnSceneLoad: 0
   m_GISettings:
     serializedVersion: 2
     m_BounceScale: 1
@@ -67,9 +66,6 @@ LightmapSettings:
     m_LightmapParameters: {fileID: 0}
     m_LightmapsBakeMode: 1
     m_TextureCompression: 1
-    m_FinalGather: 0
-    m_FinalGatherFiltering: 1
-    m_FinalGatherRayCount: 256
     m_ReflectionCompression: 2
     m_MixedBakeMode: 2
     m_BakeBackend: 0
@@ -192,7 +188,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2280448514273987288, guid: 8e9ebbfc9c77c68418a3e2d603ffd842,
         type: 3}
-      propertyPath: fsm.states.Array.data[1].actionData.actionEnabled.Array.data[4]
+      propertyPath: 'fsm.states.Array.data[1].actionData.actionEnabled.Array.data[4]'
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2280448514273987288, guid: 8e9ebbfc9c77c68418a3e2d603ffd842,
@@ -275,7 +271,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2280448514273987288, guid: 8e9ebbfc9c77c68418a3e2d603ffd842,
         type: 3}
-      propertyPath: fsm.states.Array.data[1].actionData.actionEnabled.Array.data[4]
+      propertyPath: 'fsm.states.Array.data[1].actionData.actionEnabled.Array.data[4]'
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2280448514273987288, guid: 8e9ebbfc9c77c68418a3e2d603ffd842,
@@ -518,7 +514,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2280448514273987288, guid: 8e9ebbfc9c77c68418a3e2d603ffd842,
         type: 3}
-      propertyPath: fsm.states.Array.data[1].actionData.actionEnabled.Array.data[4]
+      propertyPath: 'fsm.states.Array.data[1].actionData.actionEnabled.Array.data[4]'
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2280448514273987288, guid: 8e9ebbfc9c77c68418a3e2d603ffd842,
@@ -807,6 +803,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 7783625819131838513, guid: c182a588e931cd848aecc29d35f4ebd1,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8820350811459232484, guid: c182a588e931cd848aecc29d35f4ebd1,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -869,13 +870,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8820350811459232487, guid: c182a588e931cd848aecc29d35f4ebd1,
         type: 3}
-      propertyPath: fsm.states.Array.data[1].actionData.actionEnabled.Array.data[0]
+      propertyPath: 'fsm.states.Array.data[1].actionData.actionEnabled.Array.data[0]'
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8820350811459232487, guid: c182a588e931cd848aecc29d35f4ebd1,
         type: 3}
       propertyPath: fsm.states.Array.data[7].actionData.fsmIntParams.Array.data[0].value
-      value: 16
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 8820350811459232487, guid: c182a588e931cd848aecc29d35f4ebd1,
         type: 3}
@@ -1172,7 +1173,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5029222022906204465, guid: 454a1d581de8dfa438bf559c2bb672e1,
         type: 3}
-      propertyPath: fsm.states.Array.data[1].actionData.actionEnabled.Array.data[4]
+      propertyPath: 'fsm.states.Array.data[1].actionData.actionEnabled.Array.data[4]'
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5029222022906204465, guid: 454a1d581de8dfa438bf559c2bb672e1,
@@ -1255,7 +1256,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2280448514273987288, guid: 8e9ebbfc9c77c68418a3e2d603ffd842,
         type: 3}
-      propertyPath: fsm.states.Array.data[1].actionData.actionEnabled.Array.data[4]
+      propertyPath: 'fsm.states.Array.data[1].actionData.actionEnabled.Array.data[4]'
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2280448514273987288, guid: 8e9ebbfc9c77c68418a3e2d603ffd842,
@@ -1342,6 +1343,7 @@ CircleCollider2D:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1795723876}
   m_Enabled: 1
+  serializedVersion: 3
   m_Density: 1
   m_Material: {fileID: 0}
   m_IncludeLayers:
@@ -1365,9 +1367,9 @@ CircleCollider2D:
     m_Bits: 4294967295
   m_IsTrigger: 1
   m_UsedByEffector: 0
-  m_UsedByComposite: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
   m_Offset: {x: 0, y: -0.000000059604645}
-  serializedVersion: 2
   m_Radius: 2.01
 --- !u!1001 &1865599495
 PrefabInstance:
@@ -1384,7 +1386,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5029222022906204465, guid: 454a1d581de8dfa438bf559c2bb672e1,
         type: 3}
-      propertyPath: fsm.states.Array.data[1].actionData.actionEnabled.Array.data[4]
+      propertyPath: 'fsm.states.Array.data[1].actionData.actionEnabled.Array.data[4]'
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5029222022906204465, guid: 454a1d581de8dfa438bf559c2bb672e1,
@@ -1472,7 +1474,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5029222022906204465, guid: 454a1d581de8dfa438bf559c2bb672e1,
         type: 3}
-      propertyPath: fsm.states.Array.data[1].actionData.actionEnabled.Array.data[4]
+      propertyPath: 'fsm.states.Array.data[1].actionData.actionEnabled.Array.data[4]'
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5029222022906204465, guid: 454a1d581de8dfa438bf559c2bb672e1,
@@ -1560,7 +1562,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5029222022906204465, guid: 454a1d581de8dfa438bf559c2bb672e1,
         type: 3}
-      propertyPath: fsm.states.Array.data[1].actionData.actionEnabled.Array.data[4]
+      propertyPath: 'fsm.states.Array.data[1].actionData.actionEnabled.Array.data[4]'
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5029222022906204465, guid: 454a1d581de8dfa438bf559c2bb672e1,

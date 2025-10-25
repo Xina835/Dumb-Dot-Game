@@ -559,7 +559,7 @@ PrefabInstance:
     - target: {fileID: 5580868366229357982, guid: 37467d1de69903541847113fb712e649,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.262048
+      value: -5.95
       objectReference: {fileID: 0}
     - target: {fileID: 5580868366229357982, guid: 37467d1de69903541847113fb712e649,
         type: 3}
@@ -1142,7 +1142,7 @@ PrefabInstance:
     - target: {fileID: 5580868366229357982, guid: 37467d1de69903541847113fb712e649,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -6.342004
+      value: -6.95
       objectReference: {fileID: 0}
     - target: {fileID: 5580868366229357982, guid: 37467d1de69903541847113fb712e649,
         type: 3}
@@ -1241,7 +1241,7 @@ PrefabInstance:
     - target: {fileID: 5580868366229357982, guid: 37467d1de69903541847113fb712e649,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 6.39
+      value: 6.77
       objectReference: {fileID: 0}
     - target: {fileID: 5580868366229357982, guid: 37467d1de69903541847113fb712e649,
         type: 3}
@@ -1403,12 +1403,12 @@ PrefabInstance:
     - target: {fileID: 1342984391344489186, guid: 159925bca00ebe5409e9d20015a8ca0c,
         type: 3}
       propertyPath: fsm.variables.floatVariables.Array.data[0].value
-      value: 3
+      value: -3
       objectReference: {fileID: 0}
     - target: {fileID: 1342984391344489186, guid: 159925bca00ebe5409e9d20015a8ca0c,
         type: 3}
       propertyPath: fsm.variables.floatVariables.Array.data[1].value
-      value: -3
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1342984391344489188, guid: 159925bca00ebe5409e9d20015a8ca0c,
         type: 3}
@@ -1627,7 +1627,7 @@ PrefabInstance:
     - target: {fileID: 3613072045063811904, guid: b6b8e55817eeab343af03ee09c334c08,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3613072045063811908, guid: b6b8e55817eeab343af03ee09c334c08,
         type: 3}
@@ -1775,7 +1775,7 @@ PrefabInstance:
     - target: {fileID: 5580868366229357982, guid: 37467d1de69903541847113fb712e649,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.29
+      value: -2.72
       objectReference: {fileID: 0}
     - target: {fileID: 5580868366229357982, guid: 37467d1de69903541847113fb712e649,
         type: 3}
@@ -1841,6 +1841,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 7783625819131838513, guid: c182a588e931cd848aecc29d35f4ebd1,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8820350811459232484, guid: c182a588e931cd848aecc29d35f4ebd1,
         type: 3}
       propertyPath: m_RootOrder
@@ -1909,12 +1914,12 @@ PrefabInstance:
     - target: {fileID: 8820350811459232487, guid: c182a588e931cd848aecc29d35f4ebd1,
         type: 3}
       propertyPath: fsm.variables.intVariables.Array.data[3].value
-      value: 2
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 8820350811459232487, guid: c182a588e931cd848aecc29d35f4ebd1,
         type: 3}
       propertyPath: fsm.states.Array.data[7].actionData.fsmIntParams.Array.data[0].value
-      value: 19
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 8820350811459232487, guid: c182a588e931cd848aecc29d35f4ebd1,
         type: 3}
@@ -2038,7 +2043,7 @@ PrefabInstance:
     - target: {fileID: 5580868366229357982, guid: 37467d1de69903541847113fb712e649,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4.142004
+      value: -3.64
       objectReference: {fileID: 0}
     - target: {fileID: 5580868366229357982, guid: 37467d1de69903541847113fb712e649,
         type: 3}
@@ -2137,7 +2142,7 @@ PrefabInstance:
     - target: {fileID: 5580868366229357982, guid: 37467d1de69903541847113fb712e649,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.347952
+      value: 4.05
       objectReference: {fileID: 0}
     - target: {fileID: 5580868366229357982, guid: 37467d1de69903541847113fb712e649,
         type: 3}
@@ -2206,12 +2211,12 @@ PrefabInstance:
     - target: {fileID: 2070314722741925592, guid: 23c3a07ee74702d48a98bf6d422b95a9,
         type: 3}
       propertyPath: fsm.variables.floatVariables.Array.data[0].value
-      value: 3
+      value: -3
       objectReference: {fileID: 0}
     - target: {fileID: 2070314722741925592, guid: 23c3a07ee74702d48a98bf6d422b95a9,
         type: 3}
       propertyPath: fsm.variables.floatVariables.Array.data[1].value
-      value: -3
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2070314722741925592, guid: 23c3a07ee74702d48a98bf6d422b95a9,
         type: 3}

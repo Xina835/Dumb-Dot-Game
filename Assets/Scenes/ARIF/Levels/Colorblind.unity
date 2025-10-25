@@ -202,12 +202,12 @@ PrefabInstance:
     - target: {fileID: 2070314722741925592, guid: 23c3a07ee74702d48a98bf6d422b95a9,
         type: 3}
       propertyPath: fsm.variables.floatVariables.Array.data[0].value
-      value: 4
+      value: -4
       objectReference: {fileID: 0}
     - target: {fileID: 2070314722741925592, guid: 23c3a07ee74702d48a98bf6d422b95a9,
         type: 3}
       propertyPath: fsm.variables.floatVariables.Array.data[1].value
-      value: -4
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 2070314722741925592, guid: 23c3a07ee74702d48a98bf6d422b95a9,
         type: 3}
@@ -868,12 +868,12 @@ PrefabInstance:
     - target: {fileID: 1342984391344489186, guid: 159925bca00ebe5409e9d20015a8ca0c,
         type: 3}
       propertyPath: fsm.variables.floatVariables.Array.data[0].value
-      value: 4
+      value: -4
       objectReference: {fileID: 0}
     - target: {fileID: 1342984391344489186, guid: 159925bca00ebe5409e9d20015a8ca0c,
         type: 3}
       propertyPath: fsm.variables.floatVariables.Array.data[1].value
-      value: -4
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 1342984391344489188, guid: 159925bca00ebe5409e9d20015a8ca0c,
         type: 3}
@@ -2163,7 +2163,7 @@ PrefabInstance:
     - target: {fileID: 3613072045063811904, guid: b6b8e55817eeab343af03ee09c334c08,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3613072045063811908, guid: b6b8e55817eeab343af03ee09c334c08,
         type: 3}
@@ -4762,6 +4762,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 7783625819131838513, guid: c182a588e931cd848aecc29d35f4ebd1,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8820350811459232484, guid: c182a588e931cd848aecc29d35f4ebd1,
         type: 3}
       propertyPath: m_RootOrder
@@ -4845,7 +4850,7 @@ PrefabInstance:
     - target: {fileID: 8820350811459232487, guid: c182a588e931cd848aecc29d35f4ebd1,
         type: 3}
       propertyPath: fsm.states.Array.data[7].actionData.fsmIntParams.Array.data[0].value
-      value: 6
+      value: 21
       objectReference: {fileID: 0}
     - target: {fileID: 8820350811459232487, guid: c182a588e931cd848aecc29d35f4ebd1,
         type: 3}
