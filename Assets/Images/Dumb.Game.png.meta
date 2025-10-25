@@ -322,7 +322,15 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Dumb.Game_0: 1926777055606915477
+      Dumb.Game_1: 7360137624720521106
+      Dumb.Game_2: -1161436437688004418
+      Dumb.Game_3: 5548050085063815350
+      Dumb.Game_4: -6392690587481432862
+      Dumb.Game_5: 6003044139007797957
+      Dumb.Game_6: 4915619256286064356
+      Dumb.Game_7: 8677259792005600245
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
